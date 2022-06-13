@@ -154,6 +154,8 @@ font-style: italic;
 /* img-text Start */
 .img-text{
   padding: 130px 0;
+  background: url("../img/trust.png") no-repeat center;
+  background-size: cover;
 }
 .img-text .img-area img{
   border-radius: 500px 0 500px 500px;
@@ -164,6 +166,7 @@ font-style: italic;
 }
 .img-text .text-area{
   padding-top: 60px ;
+  position: relative;
 }
 .img-text .text-area h2{
   font-weight: 600;
@@ -180,7 +183,29 @@ font-style: italic;
   color: #5D616F;
   margin-bottom: 32px;
 }
+.img-text .text-area img{
+  position: absolute;
+  right: 112px;
+  top: 312px;
+}
 /* img-text End */
+/* Trust Start */
+.trust{
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 108px;
+}
+.trust .imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+.trust .item{
+  width: 33%;
+  margin-top: 80px;
+}
+/* Trust End */
 
 
 
