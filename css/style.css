@@ -324,21 +324,21 @@ nav ul li a {
   margin-top: 30px;
   margin-bottom: 76px;
 }
-.field {
+.subscribe .field {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.field .global-btn{
+.subscribe .field .global-btn{
   margin-right: 0;
   padding: 13px 40px;
 }
-.mail {
+.subscribe .mail {
   width: 448px;
   text-align: left;
   position: relative;
 }
-.mail input {
+.subscribe .mail input {
   padding: 16px 24px;
   background: transparent;
   width: 100%;
@@ -350,13 +350,13 @@ nav ul li a {
   padding-left: 66px !important;
   border: 1px solid  #3E82FC;;
 }
-.mail input::placeholder{
+.subscribe .mail input::placeholder{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #3E82FC;
 }
-.mail i {
+.subscribe .mail i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -364,4 +364,67 @@ nav ul li a {
   font-size: 26px;
   color: #3E82FC;
 }
-/* Subscribe End*/;
+/* Subscribe End*/
+/* footer Start*/
+footer{
+  background: #ECF3FF;
+  padding-top: 117px;
+  padding-bottom: 48px;
+}
+footer .details img {
+  width: 127px;
+}
+footer .details p {
+  max-width: 341px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #5D616F;
+margin-bottom: 48px;
+margin-top: 16px;
+}
+footer .details i {
+  height: 50px;
+  width: 50px;
+  background: #3e82fc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 25px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 30px;
+}
+footer .footer-menu ul{
+  list-style-type: none;
+}
+footer .footer-menu ul li:first-child{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  color: #05060A;
+  margin-bottom: 30px;
+}
+footer .footer-menu ul li a{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #5D616F;
+  text-decoration: none;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+footer .cp-right {
+  text-align: center;
+  margin-top: 131px;
+}
+footer .cp-right p{
+  font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #5D616F;
+}
+/* footer End*/
